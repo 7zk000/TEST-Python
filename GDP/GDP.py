@@ -17,7 +17,16 @@ def read_gdp_data(filename, country_name):
         return gdp_data
 
 country_name = input("Enter the Country Name: ")
-filename = 'C:\\Users\\denfo\\python-test\\Python\\GDP\\GDP-test.csv'
+
+
+
+
+#filename = '読み込むファイルを指定して、コメントアウトを解消してください'
+
+
+
+
+
 gdp_data = read_gdp_data(filename, country_name)
 
 if gdp_data:
