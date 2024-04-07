@@ -1,7 +1,7 @@
 import random
 
 def main():
-    hands = ['1.グー', '2.チョキ', '3.パー']
+    hands = ['グー', 'チョキ', 'パー']
     rules = {
         ('グー', 'チョキ'): '勝ち',
         ('チョキ', 'パー'): '勝ち',
@@ -19,7 +19,6 @@ def main():
     if user_hand not in hands:
         print('グー、チョキ、パーのいずれかを入力してください。')
         return
-
     comp_hand = random.choice(hands)
     print(f'あなたは{user_hand}、コンピュータは{comp_hand}を出しました。')
 
